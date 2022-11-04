@@ -1,0 +1,101 @@
+.Twitter {
+  text-align: center;
+}
+
+.comment-reaction {
+  color: #ea0000;
+  outline: none;
+  list-style: none;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1em;
+  box-shadow: 0 0 22px 4px rgba(0, 0, 0, 0.1);
+  height: 40px;
+  width: 100px;
+  transition: box-shadow 0.3s;
+}
+.comment-reaction :hover {
+  box-shadow: 3px 3px 22px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  color: #282c34;
+}
+.reaction {
+  padding: 2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.input {
+  width: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.reaction :hover {
+  cursor: pointer;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.user {
+  margin: 0 auto;
+  width: 400px;
+  padding-top: 50px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(152, 167, 196);
+  border: 3px solid rgb(58, 97, 170);
+  border-radius: 50%;
+  color: rgb(58, 97, 170);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-name {
+  height: 40px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.post-overlay {
+  text-align: cent;
+}
